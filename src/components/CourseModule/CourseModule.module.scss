@@ -1,0 +1,7 @@
+@use '../../sass/base.scss';
+
+#CourseModuleContainer {
+    width : 80%;
+    height: 80%;
+    @include base.lightBlue;
+}

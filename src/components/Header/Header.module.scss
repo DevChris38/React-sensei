@@ -1,0 +1,36 @@
+@use '../../sass/base.scss';
+
+#header {
+    background-color: lightblue;
+    height: 10%;
+    width: 100%;
+    @include base.lightBlue;
+    @include base.flexCenter;
+
+    &__logo {
+        height: 100%;
+        width: 15%;
+    }
+
+    &__title {
+        height: 100%;
+        width: 55%;
+        @include base.flexCenter;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        @include base.textAlign;
+        font-size: clamp(10px, 10vh, 1.5rem);
+    }
+
+    h2 {
+        @include base.textAlign;
+        font-size: clamp(7.5px, 7.5vh, 1rem);
+    }
+
+    nav {
+        height: 100%;
+        width: 15%;  
+    }
+}

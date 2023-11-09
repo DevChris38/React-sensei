@@ -1,0 +1,14 @@
+@use './sass/base.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#AppContainer {
+    width: 100vw;
+    height: 100vh;
+    @include base.flexCenter;
+    flex-wrap: wrap;
+}

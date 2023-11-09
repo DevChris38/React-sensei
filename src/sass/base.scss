@@ -1,0 +1,17 @@
+@mixin lightBlue{
+    border: 1px solid rgb(102,219,251);
+    background-color: rgb(241, 252, 255);
+    color: rgb(0, 36, 46)
+}
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+@mixin textAlign {
+    width: 100%;
+    text-align: center;
+}
