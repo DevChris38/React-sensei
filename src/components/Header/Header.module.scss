@@ -6,6 +6,9 @@
     width: 100%;
     @include base.lightBlue;
     @include base.flexCenter;
+    border-radius: 0;
+    top: 0;
+    margin-bottom: 2%;
 
     &__logo {
         height: 100%;
@@ -22,11 +25,13 @@
     h1 {
         @include base.textAlign;
         font-size: clamp(10px, 10vh, 1.5rem);
+        margin: 0;
     }
 
     h2 {
         @include base.textAlign;
         font-size: clamp(7.5px, 7.5vh, 1rem);
+        margin: 0;
     }
 
     nav {

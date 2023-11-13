@@ -1,1 +1,35 @@
-/*# sourceMappingURL=base.css.map */
+h1, h2, h3, h4, h5, h6, p {
+  width: 100%;
+  margin: 2% 0;
+}
+
+table {
+  border: 1px solid rgb(0, 36, 46);
+  border-radius: 1vw 1vw;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: hsl(193, 95%, 80%);
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: hsl(193, 95%, 90%);
+}
+
+th {
+  width: 50%;
+}
+
+td {
+  padding: 2% 0;
+  border-radius: 5px 5px;
+}
+
+.indent {
+  text-indent: 40px;
+}/*# sourceMappingURL=base.css.map */

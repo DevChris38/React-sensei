@@ -1,7 +1,25 @@
 @use '../../sass/base.scss';
 
 #CourseModuleContainer {
-    width : 80%;
-    height: 80%;
+    width : 95%;
+    height: 100%;
     @include base.lightBlue;
+    @include base.flexCenter;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    h2 {
+        @include base.textAlign;
+    }
+
+    section {
+        width: 100%;
+        @include base.flexCenter;
+        flex-wrap: wrap;
+        align-items: stretch;
+        margin: 2% 0;
+    }
+
+
 }
+
