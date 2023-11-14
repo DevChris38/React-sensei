@@ -2,7 +2,7 @@ import styles from "./CourseModule.module.css";
 import UseStatePart1A from "../UseStateCourses/UseStatePart1A";
 import UseStatePart1B from "../UseStateCourses/UseStatePart1B";
 
-function CourseModule() {
+function UseStateCourseModule() {
   return (
     <div id={styles.CourseModuleContainer}>
       <h2>useState</h2>
@@ -64,4 +64,4 @@ function CourseModule() {
   );
 }
 
-export default CourseModule;
+export default UseStateCourseModule;
