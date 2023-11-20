@@ -36,17 +36,19 @@ td {
 
 #CourseModuleContainer {
   width: 95%;
-  height: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
   border: 1px solid hsl(193, 95%, 69%);
   background-color: hsl(193, 100%, 97%);
   color: rgb(0, 36, 46);
-  border-radius: 2% 2%;
+  border-radius: 20px 20px;
   padding: 2% 2%;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: flex-start;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 #CourseModuleContainer h2 {
   width: 100%;
@@ -58,6 +60,6 @@ td {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  align-items: stretch;
+  flex-direction: row;
   margin: 2% 0;
 }/*# sourceMappingURL=CourseModule.module.css.map */

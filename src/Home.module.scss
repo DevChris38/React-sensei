@@ -1,0 +1,23 @@
+@use './sass/base.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#HomeContainer {
+    width: 95%;
+    height: 100%;
+    @include base.flexCenter;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    @include base.lightBlue;
+}
+
+section {
+    width: 90%;
+    @include base.flexCenter;
+    flex-direction: column;
+}

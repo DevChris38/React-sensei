@@ -1,0 +1,16 @@
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: flex-end;
+  gap: 10px;
+}
+form input, form select {
+  width: 100%;
+}
+form .message {
+  height: 3rem;
+}/*# sourceMappingURL=Form.module.css.map */

@@ -1,0 +1,17 @@
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-items: flex-end;
+    gap: 10px;
+
+    input, select{
+        width: 100%;
+    }
+
+    .message{
+        height: 3rem;
+    }
+}

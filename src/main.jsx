@@ -5,7 +5,7 @@ import Root from "./routes/root";
 import "./index.css";
 import UseStateCourseModule from "./components/CourseModule/UseStateCourseModule.jsx";
 import UseEffectCourseModule from "./components/CourseModule/UseEffectCourseModule.jsx";
-import App from "./App.jsx";
+import Home from "./Home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <App />,
+        element: <Home />,
       },
       {
         path: "useState",

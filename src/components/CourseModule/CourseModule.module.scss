@@ -2,12 +2,12 @@
 
 #CourseModuleContainer {
     width : 95%;
-    height: 100%;
+    height: fit-content;
     @include base.lightBlue;
     @include base.flexCenter;
     align-content: flex-start;
     flex-wrap: wrap;
-
+    flex-grow: 1;
     h2 {
         @include base.textAlign;
     }
@@ -16,7 +16,7 @@
         width: 100%;
         @include base.flexCenter;
         flex-wrap: wrap;
-        align-items: stretch;
+        flex-direction: row;
         margin: 2% 0;
     }
 

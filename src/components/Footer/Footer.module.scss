@@ -1,0 +1,17 @@
+@use '../../sass/base.scss';
+
+#footer {
+    background-color: lightblue;
+    width: 100%;
+    @include base.lightBlue;
+    @include base.flexCenter;
+    border-radius: 0;
+    bottom: 0;
+
+
+    h2 {
+        @include base.textAlign;
+        font-size: clamp(7.5px, 7.5vh, 1rem);
+        margin: 0;
+    }
+}

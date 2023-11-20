@@ -14,11 +14,7 @@ function Header() {
         </h2>
       </div>
       <nav>
-        <select
-          name="pets"
-          id="pet-select"
-          onChange={(e) => navigate(e.target.value)}
-        >
+        <select onChange={(e) => navigate(e.target.value)}>
           <option value="">--Quelle notion ?--</option>
           <option value="useState">useState</option>
           <option value="useEffect">useEffect</option>
