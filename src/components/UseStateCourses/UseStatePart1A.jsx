@@ -1,5 +1,4 @@
 import style from "./UseStatePart1A.module.css";
-import code from "../../../public/";
 import { useState } from "react";
 
 function UseStatePart1A() {
