@@ -6,6 +6,7 @@ function Header() {
       <h2>
         <strong>Christopher Arthaud - 2023</strong>
       </h2>
+      <div id="logos"></div>
     </div>
   );
 }

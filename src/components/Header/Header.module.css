@@ -34,13 +34,7 @@ td {
   text-indent: 40px;
 }
 
-section {
-  width: 90%;
-}
-
 #header {
-  background-color: lightblue;
-  height: 10%;
   width: 100%;
   border: 1px solid hsl(193, 95%, 69%);
   background-color: hsl(193, 100%, 97%);
@@ -50,9 +44,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(196, 53%, 85%);
   border-radius: 0;
-  top: 0;
-  margin-bottom: 2%;
 }
 #header__logo {
   height: 100%;

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Root from "./routes/root";
+import Root from "./routes/Root";
 import "./index.css";
 import UseStateCourseModule from "./components/CourseModule/UseStateCourseModule.jsx";
 import UseEffectCourseModule from "./components/CourseModule/UseEffectCourseModule.jsx";

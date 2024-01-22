@@ -1,14 +1,11 @@
 @use '../../sass/base.scss';
 
 #header {
-    background-color: lightblue;
-    height: 10%;
     width: 100%;
     @include base.lightBlue;
     @include base.flexCenter;
+    background-color: hsl(196, 53%, 85%);
     border-radius: 0;
-    top: 0;
-    margin-bottom: 2%;
 
     &__logo {
         height: 100%;
@@ -38,4 +35,6 @@
         height: 100%;
         width: 15%;  
     }
+
+    
 }

@@ -53,4 +53,7 @@ td {
   text-align: center;
   font-size: clamp(7.5px, 7.5vh, 1rem);
   margin: 0;
+}
+#footer #logos {
+  right: 5%;
 }/*# sourceMappingURL=Footer.module.css.map */

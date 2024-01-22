@@ -8,10 +8,13 @@
     border-radius: 0;
     bottom: 0;
 
-
     h2 {
         @include base.textAlign;
         font-size: clamp(7.5px, 7.5vh, 1rem);
         margin: 0;
+    }
+
+    #logos{
+        right: 5%;
     }
 }

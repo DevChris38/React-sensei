@@ -16,6 +16,7 @@ function Header() {
       <nav>
         <select onChange={(e) => navigate(e.target.value)}>
           <option value="">--Quelle notion ?--</option>
+          <option value="/">Page d'accueil</option>
           <option value="useState">useState</option>
           <option value="useEffect">useEffect</option>
         </select>

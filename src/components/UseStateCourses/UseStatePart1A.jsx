@@ -1,5 +1,5 @@
 import style from "./UseStatePart1A.module.css";
-import code from "./UseStatePart1A.png";
+import code from "../../../public/";
 import { useState } from "react";
 
 function UseStatePart1A() {
@@ -16,7 +16,7 @@ function UseStatePart1A() {
       <p>
         <strong>Que va t'il se passer en cliquant sur le bouton ?</strong>
       </p>
-      <img src={code}></img>
+      <img src={"/images/UseStatePart1A.png"}></img>
       <p>
         <strong>compteur : {counter}</strong>
       </p>

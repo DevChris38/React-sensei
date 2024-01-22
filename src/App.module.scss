@@ -8,14 +8,13 @@
 
 #AppContainer {
     @include base.flexCenter;
-    align-content: stretch;
     flex-wrap: wrap;
 }
 
 body {
     width: 100%;
-    height: 100vh;
     @include base.flexCenter;
     align-content: flex-start;
     flex-wrap: wrap;
+    background-color: #24272f;
 }
