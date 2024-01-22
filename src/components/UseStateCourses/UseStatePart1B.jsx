@@ -12,7 +12,7 @@ function UseStatePart1B() {
       <p>
         <strong>Que va t'il se passer en cliquant sur le bouton ?</strong>
       </p>
-      <img src={"/images/UseStatePart1A.png"}></img>
+      <img src={"/images/UseStatePart1B.png"}></img>
       <p>
         <strong>compteur : {counter}</strong>
       </p>
